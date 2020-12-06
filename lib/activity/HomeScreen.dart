@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 GoogleMap(
                   initialCameraPosition: CameraPosition(
-                      zoom: 2, target: LatLng(41.092724, 16.852686)),
+                      zoom: 15, target: LatLng(41.092724, 16.852686)),
                 ),
                 //Placeholder(color: Colors.red),
                 /*Container(
